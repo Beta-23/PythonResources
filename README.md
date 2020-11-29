@@ -1,7 +1,7 @@
 # PythonResources
 
 PYTHON CHEAT SHEET
-
+> B A S I C S
 ## Print
 Prints a string into the console. 
 ```Python
