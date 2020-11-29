@@ -7,7 +7,7 @@ Prints a string into the console.
 ```Python
 print("Hello World")
 ```
-> Input
+## Input
 Prints a string into the console,
 and asks the user for a string input.
 ```Python
