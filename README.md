@@ -113,3 +113,15 @@ operators.
 5**2 #Exponent
 ```
 
+## The += Operator
+This is a convenient way to modify a variable.
+It takes the existing value in a variable
+and adds to it.
+You can also use any of the other
+mathematical operators e.g. -= or *=
+```Python
+my_number = 4
+my_number += 2
+#result is 6
+```
+
