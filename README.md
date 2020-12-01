@@ -37,3 +37,28 @@ my_age = 12
 my_age += 4
 #my_age is now 16
 ```
+> D A T A  T Y P E S
+## Integers 
+Integers are whole numbers. 
+```Python
+my_number = 354
+```
+## Floating Point Numbers 
+Floats are numbers with decimal places. When you do a calculation that results in a fraction e.g. 4 ÷ 3 the result will always be a floating point number. 
+```Python
+my_float = 3.14159
+```
+## Strings 
+A string is just a string of characters. It should be surrounded by double quotes. 
+```Python
+my_string = "Hello"
+```
+## String Concatenation 
+You can add strings to string to create a new string. This is called concatenation. It results in a new string. 
+```Python
+"Hello" + "Angela" #becomes "HelloAngela" 
+```
+## Escaping a String 
+Because the double quote is special, it denotes a string, if you want to use it in a string, you need to escape it with a "\" ```Python
+speech = "She said: \"Hi\"" print(speech) #prints: She said: "Hi"
+```
