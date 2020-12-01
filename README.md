@@ -99,4 +99,17 @@ particular variable.
 n = 3.14159
 type(n) #result float
 ```
+> M A T H S
+
+## Arithmetic Operators
+You can do mathematical calculations with
+Python as long as you know the right
+operators.
+```Python
+3+2 #Addition
+4-1 #Subtract
+2*3 #Multiply
+5/2 #Divide
+5**2 #Exponent
+```
 
