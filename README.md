@@ -66,4 +66,28 @@ speech = "She said: \"Hi\""
 print(speech) 
 #prints: She said: "Hi"
 ```
+## F-Strings
+You can insert a variable into a string
+using f-strings.
+The syntax is simple, just insert the variable
+in-between a set of curly braces {}.
+```Python
+days = 365
+print(f"There are {days}
+in a year")
+```
+## Converting Data Types
+You can convert a variable from 1 data
+type to another.
+Converting to float:
+float()
+Converting to int:
+int()
+Converting to string:
+str()
+```Python
+n = 354
+new_n = float(n)
+print(new_n) #result 354.0
+```
 
