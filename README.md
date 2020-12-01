@@ -60,8 +60,10 @@ You can add strings to string to create a new string. This is called concatenati
 #becomes "HelloAngela" 
 ```
 ## Escaping a String 
-Because the double quote is special, it denotes a string, if you want to use it in a string, you need to escape it with a "\" ```Python
+Because the double quote is special, it denotes a string, if you want to use it in a string, you need to escape it with a "\" 
+```Python
 speech = "She said: \"Hi\"" 
 print(speech) 
 #prints: She said: "Hi"
 ```
+
