@@ -91,3 +91,12 @@ new_n = float(n)
 print(new_n) #result 354.0
 ```
 
+## Checking Data Types
+You can use the type() function
+to check what is the data type of a
+particular variable.
+```Python
+n = 3.14159
+type(n) #result float
+```
+
