@@ -139,3 +139,19 @@ e.g. figuring out if a number is odd or even.
 #result is 1
 ```
 
+> E R R O R S
+
+## Syntax Error
+Syntax errors happen when your code
+does not make any sense to the computer.
+This can happen because you've misspelt
+something or there's too many brackets or
+a missing comma.
+```Python
+print(12 + 4))
+File "<stdin>", line 1
+ print(12 + 4))
+              ^
+SyntaxError: unmatched ')'
+```
+
