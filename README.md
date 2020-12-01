@@ -66,4 +66,120 @@ speech = "She said: \"Hi\""
 print(speech) 
 #prints: She said: "Hi"
 ```
+## F-Strings
+You can insert a variable into a string
+using f-strings.
+The syntax is simple, just insert the variable
+in-between a set of curly braces {}.
+```Python
+days = 365
+print(f"There are {days}
+in a year")
+```
+## Converting Data Types
+You can convert a variable from 1 data
+type to another.
+Converting to float:
+float()
+Converting to int:
+int()
+Converting to string:
+str()
+```Python
+n = 354
+new_n = float(n)
+print(new_n) #result 354.0
+```
+
+## Checking Data Types
+You can use the type() function
+to check what is the data type of a
+particular variable.
+```Python
+n = 3.14159
+type(n) #result float
+```
+> M A T H S
+
+## Arithmetic Operators
+You can do mathematical calculations with
+Python as long as you know the right
+operators.
+```Python
+3+2 #Addition
+4-1 #Subtract
+2*3 #Multiply
+5/2 #Divide
+5**2 #Exponent
+```
+
+## The += Operator
+This is a convenient way to modify a variable.
+It takes the existing value in a variable
+and adds to it.
+You can also use any of the other
+mathematical operators e.g. -= or *=
+```Python
+my_number = 4
+my_number += 2
+#result is 6
+```
+
+## The Modulo Operator
+Often you'll want to know what is the
+remainder after a division.
+e.g. 4 ÷ 2 = 2 with no remainder
+but 5 ÷ 2 = 2 with 1 remainder
+The modulo does not give you the result
+of the division, just the remainder.
+It can be really helpful in certain situations,
+e.g. figuring out if a number is odd or even.
+```Python
+5 % 2
+#result is 1
+```
+
+> E R R O R S
+
+## Syntax Error
+Syntax errors happen when your code
+does not make any sense to the computer.
+This can happen because you've misspelt
+something or there's too many brackets or
+a missing comma.
+```Python
+print(12 + 4))
+File "<stdin>", line 1
+ print(12 + 4))
+              ^
+SyntaxError: unmatched ')'
+```
+
+## Name Error
+This happens when there is a variable
+with a name that the computer
+does not recognise. It's usually because
+you've misspelt the name of a variable
+you created earlier.
+Note: variable names are case sensitive!
+```Python
+my_number = 4
+my_Number + 2
+Traceback (most recent call
+last): File "<stdin>", line 1,
+NameError: name 'my_Number'
+is not defined
+```
+
+## Zero Division Error
+This happens when you try to divide by zero,
+This is something that is mathematically
+impossible so Python will also complain.
+```Python
+5 % 0
+Traceback (most recent call
+last): File "<stdin>", line 1,
+ZeroDivisionError: integer
+division or modulo by zero
+```
 
