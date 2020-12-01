@@ -155,3 +155,19 @@ File "<stdin>", line 1
 SyntaxError: unmatched ')'
 ```
 
+## Name Error
+This happens when there is a variable
+with a name that the computer
+does not recognise. It's usually because
+you've misspelt the name of a variable
+you created earlier.
+Note: variable names are case sensitive!
+```Python
+my_number = 4
+my_Number + 2
+Traceback (most recent call
+last): File "<stdin>", line 1,
+NameError: name 'my_Number'
+is not defined
+```
+
