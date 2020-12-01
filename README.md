@@ -171,3 +171,15 @@ NameError: name 'my_Number'
 is not defined
 ```
 
+## Zero Division Error
+This happens when you try to divide by zero,
+This is something that is mathematically
+impossible so Python will also complain.
+```Python
+5 % 0
+Traceback (most recent call
+last): File "<stdin>", line 1,
+ZeroDivisionError: integer
+division or modulo by zero
+```
+
