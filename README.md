@@ -212,3 +212,15 @@ my_function()
 #will run twice.
 ```
 
+## Functions with Inputs
+In addition to simple functions, you can
+give the function an input, this way, each time
+the function can do something different
+depending on the input. It makes your
+function more useful and re-usable.
+```Python
+def add(n1, n2):
+print(n1 + n2)
+add(2, 3)
+```
+
