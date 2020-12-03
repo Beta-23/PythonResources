@@ -281,3 +281,14 @@ if n > 2:
 print("Larger than 2")
 ```
 
+## Else
+This is a way to specify some code that will be
+executed if a condition is false.
+```Python
+age = 18
+if age > 16:
+print("Can drive")
+else:
+print("Don't drive")
+```
+
