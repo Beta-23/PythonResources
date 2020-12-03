@@ -224,3 +224,15 @@ print(n1 + n2)
 add(2, 3)
 ```
 
+## Functions with Outputs
+In addition to inputs, a function can also have
+an output. The output value is proceeded by
+the keyword "return".
+This allows you to store the result from a
+function.
+```Python
+def add(n1, n2):
+return n1 + n2
+result = add(2, 3)
+```
+
