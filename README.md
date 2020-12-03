@@ -338,4 +338,16 @@ print("something")
 #Will not be printed.
 ```
 
+## comparison operators
+These mathematical comparison operators
+allow you to refine your conditional checks.
+```Python
+> #Greater than
+< #Lesser than
+>= #Greater than or equal to
+<= #Lesser than or equal to
+== #Is equal to
+!= Is not equal to
+```
+
 
