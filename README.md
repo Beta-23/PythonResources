@@ -328,3 +328,14 @@ if age < 16 or age > 200:
 print("Can't drive")
 ```
 
+## not
+This will flip the original result of the
+condition. e.g. if it was true then it's now
+false.
+```Python
+if not 3 > 1:
+print("something")
+#Will not be printed.
+```
+
+
