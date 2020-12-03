@@ -269,3 +269,15 @@ divide(10, 5)
 divide(n2=5, n1=10)
 ```
 
+> C O N D I T I O N A L S
+
+## If
+This is the basic syntax to test if a condition
+is true. If so, the indented code will be
+executed, if not it will be skipped.
+```Python
+n = 5
+if n > 2:
+print("Larger than 2")
+```
+
