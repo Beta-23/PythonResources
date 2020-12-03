@@ -198,3 +198,17 @@ name = input("Your name:")
 print("Hello")
 ```
 
+## Calling Functions
+You activate the function by calling it.
+This is simply done by writing the name of
+the function followed by a set of round
+brackets. This allows you to determine
+when to trigger the function and how
+many times.
+```Python
+my_function()
+my_function()
+#The function my_function
+#will run twice.
+```
+
