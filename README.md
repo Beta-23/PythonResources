@@ -318,3 +318,13 @@ if s < 60 and s > 50:
 print("Your grade is C")
 ```
 
+## or
+This expects either of the conditions either
+side of the or to be true. Basically, both
+conditions cannot be false.
+```Python
+age = 12
+if age < 16 or age > 200:
+print("Can't drive")
+```
+
