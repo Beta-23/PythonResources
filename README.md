@@ -309,3 +309,12 @@ elif weather == "snow":
 print("bring gloves")
 ```
 
+## and
+This expects both conditions either side
+of the and to be true.
+```Python
+s = 58
+if s < 60 and s > 50:
+print("Your grade is C")
+```
+
