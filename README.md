@@ -236,3 +236,20 @@ return n1 + n2
 result = add(2, 3)
 ```
 
+## Variable Scope
+Variables created inside a function are
+destroyed once the function has executed.
+The location (line of code) that you use
+a variable will determine its value.
+Here n is 2 but inside my_function() n is 3.
+So printing n inside and outside the function
+will determine its value.
+```Python
+n = 2
+def my_function():
+n = 3
+print(n)
+print(n) #Prints 2
+my_function() #Prints 3
+```
+
