@@ -183,3 +183,18 @@ ZeroDivisionError: integer
 division or modulo by zero
 ```
 
+> F U N C T I O N S
+## Creating Functions
+This is the basic syntax for a function in
+Python. It allows you to give a set of
+instructions a name, so you can trigger it
+multiple times without having to re-write
+or copy-paste it. The contents of the function
+must be indented to signal that it's inside.
+```Python
+def my_function():
+print("Hello")
+name = input("Your name:")
+print("Hello")
+```
+
