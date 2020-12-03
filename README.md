@@ -253,3 +253,19 @@ print(n) #Prints 2
 my_function() #Prints 3
 ```
 
+## Keyword Arguments
+When calling a function, you can provide
+a keyword argument or simply just the
+value.
+Using a keyword argument means that
+you don't have to follow any order
+when providing the inputs.
+```Python
+def divide(n1, n2):
+result = n1 / n2
+#Option 1:
+divide(10, 5)
+#Option 2:
+divide(n2=5, n1=10)
+```
+
