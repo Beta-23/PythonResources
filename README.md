@@ -292,3 +292,20 @@ else:
 print("Don't drive")
 ```
 
+## Elif
+In addition to the initial If statement
+condition, you can add extra conditions to
+test if the first condition is false.
+Once an elif condition is true, the rest of
+the elif conditions are no longer checked
+and are skipped.
+```Python
+weather = "sunny"
+if weather == "rain":
+print("bring umbrella")
+elif weather == "sunny":
+print("bring sunglasses")
+elif weather == "snow":
+print("bring gloves")
+```
+
