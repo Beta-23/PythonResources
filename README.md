@@ -183,3 +183,56 @@ ZeroDivisionError: integer
 division or modulo by zero
 ```
 
+> F U N C T I O N S
+## Creating Functions
+This is the basic syntax for a function in
+Python. It allows you to give a set of
+instructions a name, so you can trigger it
+multiple times without having to re-write
+or copy-paste it. The contents of the function
+must be indented to signal that it's inside.
+```Python
+def my_function():
+print("Hello")
+name = input("Your name:")
+print("Hello")
+```
+
+## Calling Functions
+You activate the function by calling it.
+This is simply done by writing the name of
+the function followed by a set of round
+brackets. This allows you to determine
+when to trigger the function and how
+many times.
+```Python
+my_function()
+my_function()
+#The function my_function
+#will run twice.
+```
+
+## Functions with Inputs
+In addition to simple functions, you can
+give the function an input, this way, each time
+the function can do something different
+depending on the input. It makes your
+function more useful and re-usable.
+```Python
+def add(n1, n2):
+print(n1 + n2)
+add(2, 3)
+```
+
+## Functions with Outputs
+In addition to inputs, a function can also have
+an output. The output value is proceeded by
+the keyword "return".
+This allows you to store the result from a
+function.
+```Python
+def add(n1, n2):
+return n1 + n2
+result = add(2, 3)
+```
+
