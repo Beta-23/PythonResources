@@ -236,3 +236,118 @@ return n1 + n2
 result = add(2, 3)
 ```
 
+## Variable Scope
+Variables created inside a function are
+destroyed once the function has executed.
+The location (line of code) that you use
+a variable will determine its value.
+Here n is 2 but inside my_function() n is 3.
+So printing n inside and outside the function
+will determine its value.
+```Python
+n = 2
+def my_function():
+n = 3
+print(n)
+print(n) #Prints 2
+my_function() #Prints 3
+```
+
+## Keyword Arguments
+When calling a function, you can provide
+a keyword argument or simply just the
+value.
+Using a keyword argument means that
+you don't have to follow any order
+when providing the inputs.
+```Python
+def divide(n1, n2):
+result = n1 / n2
+#Option 1:
+divide(10, 5)
+#Option 2:
+divide(n2=5, n1=10)
+```
+
+> C O N D I T I O N A L S
+
+## If
+This is the basic syntax to test if a condition
+is true. If so, the indented code will be
+executed, if not it will be skipped.
+```Python
+n = 5
+if n > 2:
+print("Larger than 2")
+```
+
+## Else
+This is a way to specify some code that will be
+executed if a condition is false.
+```Python
+age = 18
+if age > 16:
+print("Can drive")
+else:
+print("Don't drive")
+```
+
+## Elif
+In addition to the initial If statement
+condition, you can add extra conditions to
+test if the first condition is false.
+Once an elif condition is true, the rest of
+the elif conditions are no longer checked
+and are skipped.
+```Python
+weather = "sunny"
+if weather == "rain":
+print("bring umbrella")
+elif weather == "sunny":
+print("bring sunglasses")
+elif weather == "snow":
+print("bring gloves")
+```
+
+## and
+This expects both conditions either side
+of the and to be true.
+```Python
+s = 58
+if s < 60 and s > 50:
+print("Your grade is C")
+```
+
+## or
+This expects either of the conditions either
+side of the or to be true. Basically, both
+conditions cannot be false.
+```Python
+age = 12
+if age < 16 or age > 200:
+print("Can't drive")
+```
+
+## not
+This will flip the original result of the
+condition. e.g. if it was true then it's now
+false.
+```Python
+if not 3 > 1:
+print("something")
+#Will not be printed.
+```
+
+## comparison operators
+These mathematical comparison operators
+allow you to refine your conditional checks.
+```Python
+> #Greater than
+< #Lesser than
+>= #Greater than or equal to
+<= #Lesser than or equal to
+== #Is equal to
+!= Is not equal to
+```
+
+
