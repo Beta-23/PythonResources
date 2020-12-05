@@ -419,6 +419,17 @@ loops.
 while 5 > 1:
     print("I'm a survivor")
 ```
+> L I S T M E T H O D S
+
+## Adding Lists Together
+You can extend a list with another list by
+using the extend keyword, or the + symbol.
+```Python
+list1 = [1, 2, 3]
+list2 = [9, 8, 7]
+new_list = list1 + list2
+list1 += list2
+```
 
 
 
