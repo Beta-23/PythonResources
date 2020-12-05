@@ -440,5 +440,19 @@ all_fruits = ["apple",
 all_fruits.append("pear")
 ```
 
+## List Index
+To get hold of a particular item from a
+list you can use its index number.
+This number can also be negative, if you
+want to start counting from the end of the
+list.
+```Python
+letters = ["a", "b", "c"]
+letters[0]
+#Result:"a"
+letters[-1]
+#Result: "c"
+```
+
 
 
