@@ -350,4 +350,14 @@ allow you to refine your conditional checks.
 != Is not equal to
 ```
 
+> L O O P S
+## While Loop
+This is a loop that will keep repeating itself
+until the while condition becomes false.
+```Python
+n = 1
+while n < 100:
+    n += 1
+```
+
 

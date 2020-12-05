@@ -24,3 +24,5 @@ elif weather == "sunny":
   print("bring sunglasses")
 elif weather == "snow":
   print("bring gloves")
+
+  
