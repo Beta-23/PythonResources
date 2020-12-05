@@ -408,5 +408,17 @@ while n < 100:
 #Prints all the odd numbers
 ```
 
+## Infinite Loops
+Sometimes, the condition you are checking
+to see if the loop should continue never
+becomes false. In this case, the loop will
+continue for eternity (or until your computer
+stops it). This is more common with while
+loops.
+```Python
+while 5 > 1:
+    print("I'm a survivor")
+```
+
 
 
