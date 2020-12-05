@@ -350,4 +350,124 @@ allow you to refine your conditional checks.
 != Is not equal to
 ```
 
+> L O O P S
+
+## While Loop
+This is a loop that will keep repeating itself
+until the while condition becomes false.
+```Python
+n = 1
+while n < 100:
+    n += 1
+```
+
+## For Loop
+For loops give you more control than
+while loops. You can loop through anything
+that is iterable. e.g. a range, a list, a dictionary
+or tuple.
+```Python
+all_fruits = ["apple",
+    "banana", "kiwi"]
+for fruit in all_fruits:
+    print(fruit)
+```
+
+## _in a For Loop
+If the value your for loop is iterating through,
+e.g. the number in the range, or the item in
+the list is not needed, you can replace it with
+an underscore.
+```Python
+for _ in range(100):
+    #Do something 100 times.
+```
+
+## break
+This keyword allows you to break free of the
+loop. You can use it in a for or while loop.
+```Python
+scores = [34, 67, 99, 105]
+for s in scores:
+    if s > 100:
+        print("Invalid")
+        break
+print(s)
+```
+
+## continue
+This keyword allows you to skip this iteration
+of the loop and go to the next. The loop will
+still continue, but it will start from the top.
+```Python
+n = 1
+while n < 100:
+    if n % 2 == 0:
+        continue
+    print(n)
+#Prints all the odd numbers
+```
+
+## Infinite Loops
+Sometimes, the condition you are checking
+to see if the loop should continue never
+becomes false. In this case, the loop will
+continue for eternity (or until your computer
+stops it). This is more common with while
+loops.
+```Python
+while 5 > 1:
+    print("I'm a survivor")
+```
+> L I S T M E T H O D S
+
+## Adding Lists Together
+You can extend a list with another list by
+using the extend keyword, or the + symbol.
+```Python
+list1 = [1, 2, 3]
+list2 = [9, 8, 7]
+new_list = list1 + list2
+list1 += list2
+```
+
+## Adding an Item to a List
+If you just want to add a single item to a
+list, you need to use the .append() method.
+```Python
+all_fruits = ["apple",
+    "banana", "orange"]
+all_fruits.append("pear")
+```
+
+## List Index
+To get hold of a particular item from a
+list you can use its index number.
+This number can also be negative, if you
+want to start counting from the end of the
+list.
+```Python
+letters = ["a", "b", "c"]
+letters[0]
+print(letters[0])
+#Result:"a"
+letters[-1]
+print(letters[-1])
+#Result: "c"
+```
+
+## List Slicing
+Using the list index and the colon symbol
+you can slice up a list to get only the
+portion you want.
+Start is included, but end is not.
+```Python
+#list[start:end]
+letters = ["a","b","c","d"]
+letters[1:3]
+print(letters[1:3])
+#Result: ["b", "c"]
+```
+
+
 
