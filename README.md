@@ -456,5 +456,18 @@ print(letters[-1])
 #Result: "c"
 ```
 
+## List Slicing
+Using the list index and the colon symbol
+you can slice up a list to get only the
+portion you want.
+Start is included, but end is not.
+```Python
+#list[start:end]
+letters = ["a","b","c","d"]
+letters[1:3]
+print(letters[1:3])
+#Result: ["b", "c"]
+```
+
 
 
