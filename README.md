@@ -351,6 +351,7 @@ allow you to refine your conditional checks.
 ```
 
 > L O O P S
+
 ## While Loop
 This is a loop that will keep repeating itself
 until the while condition becomes false.
@@ -359,5 +360,18 @@ n = 1
 while n < 100:
     n += 1
 ```
+
+## For Loop
+For loops give you more control than
+while loops. You can loop through anything
+that is iterable. e.g. a range, a list, a dictionary
+or tuple.
+```Python
+all_fruits = ["apple",
+    "banana", "kiwi"]
+for fruit in all_fruits:
+    print(fruit)
+```
+
 
 
