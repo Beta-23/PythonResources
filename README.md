@@ -431,5 +431,14 @@ new_list = list1 + list2
 list1 += list2
 ```
 
+## Adding an Item to a List
+If you just want to add a single item to a
+list, you need to use the .append() method.
+```Python
+all_fruits = ["apple",
+    "banana", "orange"]
+all_fruits.append("pear")
+```
+
 
 
