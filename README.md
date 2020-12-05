@@ -449,8 +449,10 @@ list.
 ```Python
 letters = ["a", "b", "c"]
 letters[0]
+print(letters[0])
 #Result:"a"
 letters[-1]
+print(letters[-1])
 #Result: "c"
 ```
 
