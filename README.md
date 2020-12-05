@@ -373,5 +373,15 @@ for fruit in all_fruits:
     print(fruit)
 ```
 
+## _in a For Loop
+If the value your for loop is iterating through,
+e.g. the number in the range, or the item in
+the list is not needed, you can replace it with
+an underscore.
+```Python
+for _ in range(100):
+    #Do something 100 times.
+```
+
 
 
