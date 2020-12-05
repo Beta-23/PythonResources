@@ -383,5 +383,16 @@ for _ in range(100):
     #Do something 100 times.
 ```
 
+## break
+This keyword allows you to break free of the
+loop. You can use it in a for or while loop.
+```Python
+scores = [34, 67, 99, 105]
+for s in scores:
+    if s > 100:
+        print("Invalid")
+        break
+print(s)
+
 
 
