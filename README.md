@@ -485,5 +485,19 @@ print(i)
 # 0 is not included.
 ```
 
+## Randomisation
+The random functions come from the
+random module which needs to be
+imported.
+In this case, the start and end are both
+included
+start <= randint <= end
+```Pyton
+import random
+# randint(start, end)
+n = random.randint(2, 5)
+#n can be 2, 3, 4 or 5.
+```
+
 
 
