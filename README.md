@@ -469,5 +469,21 @@ print(letters[1:3])
 #Result: ["b", "c"]
 ```
 
+> B U I L T  I N  F U N C T I O N S
+
+## Range
+Often you will want to generate a range
+of numbers. You can specify the start, end
+and step.
+Start is included, but end is excluded:
+start >= range < end
+```Python
+# range(start, end, step)
+for i in range(6, 0, -2):
+print(i)
+# result: 6, 4, 2
+# 0 is not included.
+```
+
 
 
