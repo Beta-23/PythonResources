@@ -545,6 +545,18 @@ from random import randint
 n = randint(1, 5)
 ```
 
+## Importing Everything
+You can use the wildcard (*) to import
+everything from a module. Beware, this
+usually reduces code readability.
+```Python
+from random import *
+list = [1, 2, 3]
+choice(list)
+# More readable/understood
+#random.choice(list)
+```
+
 
 
 
