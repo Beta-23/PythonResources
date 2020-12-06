@@ -492,7 +492,7 @@ imported.
 In this case, the start and end are both
 included
 start <= randint <= end
-```Pyton
+```Python
 import random
 # randint(start, end)
 n = random.randint(2, 5)
@@ -506,6 +506,26 @@ and 5.8 becomes 6.
 round(4.6)
 # result 4
 ```
+
+## abs
+This returns the absolute value.
+Basically removing any -ve signs.
+```Python
+abs(-4.6)
+# result 4.6
+```
+> M O D U L E S
+
+## Importing
+Some modules are pre-installed with python
+e.g. random/datetime
+Other modules need to be installed from
+pypi.org
+```Python
+import random
+n = random.randint(3, 10)
+```
+
 
 
 
