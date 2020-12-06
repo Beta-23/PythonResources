@@ -534,6 +534,17 @@ import random as r
 n = r.randint(1, 5)
 ```
 
+## Importing from modules
+You can import a specific thing from a
+module. e.g. a function/class/constant
+You do this with the 'from' keyword.
+It can save you from having to type the same
+thing many times.
+```Python
+from random import randint
+n = randint(1, 5)
+```
+
 
 
 
