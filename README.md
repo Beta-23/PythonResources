@@ -469,5 +469,94 @@ print(letters[1:3])
 #Result: ["b", "c"]
 ```
 
+> B U I L T  I N  F U N C T I O N S
+
+## Range
+Often you will want to generate a range
+of numbers. You can specify the start, end
+and step.
+Start is included, but end is excluded:
+start >= range < end
+```Python
+# range(start, end, step)
+for i in range(6, 0, -2):
+print(i)
+# result: 6, 4, 2
+# 0 is not included.
+```
+
+## Randomisation
+The random functions come from the
+random module which needs to be
+imported.
+In this case, the start and end are both
+included
+start <= randint <= end
+```Python
+import random
+# randint(start, end)
+n = random.randint(2, 5)
+#n can be 2, 3, 4 or 5.
+```
+## Round
+This does a mathematical round.
+So 3.1 becomes 3, 4.5 becomes 5
+and 5.8 becomes 6.
+```Python
+round(4.6)
+# result 4
+```
+
+## abs
+This returns the absolute value.
+Basically removing any -ve signs.
+```Python
+abs(-4.6)
+# result 4.6
+```
+> M O D U L E S
+
+## Importing
+Some modules are pre-installed with python
+e.g. random/datetime
+Other modules need to be installed from
+pypi.org
+```Python
+import random
+n = random.randint(3, 10)
+```
+
+## Aliasing
+You can use the as keyword to give
+your module a different name.
+```Python
+import random as r
+n = r.randint(1, 5)
+```
+
+## Importing from modules
+You can import a specific thing from a
+module. e.g. a function/class/constant
+You do this with the 'from' keyword.
+It can save you from having to type the same
+thing many times.
+```Python
+from random import randint
+n = randint(1, 5)
+```
+
+## Importing Everything
+You can use the wildcard (*) to import
+everything from a module. Beware, this
+usually reduces code readability.
+```Python
+from random import *
+list = [1, 2, 3]
+choice(list)
+# More readable/understood
+#random.choice(list)
+```
+
+
 
 
