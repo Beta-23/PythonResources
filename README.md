@@ -526,6 +526,14 @@ import random
 n = random.randint(3, 10)
 ```
 
+## Aliasing
+You can use the as keyword to give
+your module a different name.
+```Python
+import random as r
+n = r.randint(1, 5)
+```
+
 
 
 
