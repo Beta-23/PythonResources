@@ -498,6 +498,14 @@ import random
 n = random.randint(2, 5)
 #n can be 2, 3, 4 or 5.
 ```
+## Round
+This does a mathematical round.
+So 3.1 becomes 3, 4.5 becomes 5
+and 5.8 becomes 6.
+```Python
+round(4.6)
+# result 4
+```
 
 
 
