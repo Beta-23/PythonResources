@@ -556,6 +556,17 @@ choice(list)
 # More readable/understood
 #random.choice(list)
 ```
+> C L A S S E S  &  O B J E C T S
+
+## Creating a Python Class
+You create a class using the class keyword.
+Note, class names in Python are PascalCased.
+So to create an empty class.
+```Python
+class MyClass:
+#define clas
+```
+
 
 
 
