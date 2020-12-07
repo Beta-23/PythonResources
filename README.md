@@ -619,6 +619,25 @@ class Car:
         self.name = "Jimmy"
 ```
 
+## Class Inheritance
+When you create a new class, you can
+inherit the methods and properties
+of another class.
+```Python
+class Animal:
+    def breathe(self):
+        print("breathing")
+class Fish(Animal):
+    def breathe(self):
+        super.breathe()
+        print("underwater")
+nemo = Fish()
+nemo.breathe()
+#Result:
+#breathing
+#underwater
+```
+
 
 
 
