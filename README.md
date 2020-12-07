@@ -586,6 +586,17 @@ my_honda = Car()
 m_honda.drive()
 ```
 
+## Class Variables
+You can create a varaiable in a class.
+The value of the variable will be available
+to all objects created from the class.
+```Python
+class Car:
+colour = "black"
+car1 = Car()
+print(car1.colour) #black
+```
+
 
 
 
