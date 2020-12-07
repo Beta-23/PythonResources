@@ -609,6 +609,35 @@ my_toyota = Car()
 #printed.
 ```
 
+## Class Properties
+You can create a variable in the init() of
+a class so that all objects created from the
+class has access to that variable.
+```Python
+class Car:
+    def __init__(self, name):
+        self.name = "Jimmy"
+```
+
+## Class Inheritance
+When you create a new class, you can
+inherit the methods and properties
+of another class.
+```Python
+class Animal:
+    def breathe(self):
+        print("breathing")
+class Fish(Animal):
+    def breathe(self):
+        super.breathe()
+        print("underwater")
+nemo = Fish()
+nemo.breathe()
+#Result:
+#breathing
+#underwater
+```
+
 
 
 
