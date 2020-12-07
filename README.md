@@ -609,6 +609,16 @@ my_toyota = Car()
 #printed.
 ```
 
+## Class Properties
+You can create a variable in the init() of
+a class so that all objects created from the
+class has access to that variable.
+```Python
+class Car:
+    def __init__(self, name):
+        self.name = "Jimmy"
+```
+
 
 
 
