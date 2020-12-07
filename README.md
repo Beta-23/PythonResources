@@ -597,6 +597,18 @@ car1 = Car()
 print(car1.colour) #black
 ```
 
+## The __init__ method
+The init method is called every time a new
+object is created from the class.
+```Python
+class Car:
+def __init(self):
+print("Building car")
+my_toyota = Car()
+#You will see "building car"
+#printed.
+```
+
 
 
 
