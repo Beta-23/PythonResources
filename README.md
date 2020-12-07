@@ -557,6 +557,59 @@ choice(list)
 #random.choice(list)
 ```
 
+> C L A S S E S  &  O B J E C T S
+
+## Creating a Python Class
+You create a class using the class keyword.
+Note, class names in Python are PascalCased.
+So to create an empty class.
+```Python
+class MyClass:
+#define clas
+```
+## Creating an Object from a Class
+You can create a new instance of an object
+by using the class name + ()
+```Python
+class Car:
+pass
+my_toyota = Car()
+```
+## Class Methods
+You can create a function that belongs
+to a class, this is known as a method.
+```Python
+class Car:
+def drive(self):
+print("move")
+my_honda = Car()
+m_honda.drive()
+```
+
+## Class Variables
+You can create a varaiable in a class.
+The value of the variable will be available
+to all objects created from the class.
+```Python
+class Car:
+colour = "black"
+car1 = Car()
+print(car1.colour) #black
+```
+
+## The __init__ method
+The init method is called every time a new
+object is created from the class.
+```Python
+class Car:
+def __init(self):
+print("Building car")
+my_toyota = Car()
+#You will see "building car"
+#printed.
+```
+
+
 
 
 
