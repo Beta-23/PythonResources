@@ -575,6 +575,16 @@ class Car:
 pass
 my_toyota = Car()
 ```
+## Class Methods
+You can create a function that belongs
+to a class, this is known as a method.
+```Python
+class Car:
+def drive(self):
+print("move")
+my_honda = Car()
+m_honda.drive()
+```
 
 
 
