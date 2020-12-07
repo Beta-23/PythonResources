@@ -556,6 +556,7 @@ choice(list)
 # More readable/understood
 #random.choice(list)
 ```
+
 > C L A S S E S  &  O B J E C T S
 
 ## Creating a Python Class
@@ -565,6 +566,14 @@ So to create an empty class.
 ```Python
 class MyClass:
 #define clas
+```
+## Creating an Object from a Class
+You can create a new instance of an object
+by using the class name + ()
+```Python
+class Car:
+pass
+my_toyota = Car()
 ```
 
 
