@@ -25,4 +25,4 @@ elif weather == "sunny":
 elif weather == "snow":
   print("bring gloves")
 
-  
+  print("Let's Go " + input("GitHub Universe2020 is happening today! What's your name?"))
