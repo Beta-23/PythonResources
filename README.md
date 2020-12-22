@@ -638,6 +638,9 @@ nemo.breathe()
 #underwater
 ```
 
+## Python Visualization
+[Python Visualize](http://pythontutor.com/visualize.html#mode=edit)
+
 
 
 
